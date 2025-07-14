@@ -1,0 +1,60 @@
+{
+    "url": "https://wordpress.org/",
+    "resources": [
+        "https://wordpress.org/",
+        "https://wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/Inter/Inter-latin.woff2",
+        "https://wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/EB-Garamond/EBGaramond-latin.woff2",
+        "https://wordpress.org/wp-content/plugins/gutenberg/build/block-library/blocks/navigation/style.css?ver=21.1.1",
+        "https://wordpress.org/wp-content/plugins/gutenberg/build/block-library/blocks/image/style.css?ver=21.1.1",
+        "https://wordpress.org/wp-content/plugins/gutenberg/build/block-library/blocks/social-links/style.css?ver=21.1.1",
+        "blob:https://wordpress.org/690a5aa0-6066-4d88-a35e-6d4c4e3d5b95",
+        "https://www.googletagmanager.com/gtm.js?id=GTM-P24PF4B",
+        "https://wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/style.css?ver=1748271762",
+        "https://wordpress.org/wp-content/themes/wporg-parent-2021/build/block-styles.css?ver=1748271785",
+        "https://wordpress.org/wp-content/themes/wporg-parent-2021/build/style.css?ver=1748271785",
+        "https://wordpress.org/wp-includes/css/dashicons.min.css?ver=6.9-alpha-60451",
+        "https://wordpress.org/wp-content/themes/wporg-main-2022/build/style/style-index.css?ver=1748271785",
+        "https://wordpress.org/wp-content/themes/wporg-parent-2021/build/print.css?ver=1748271785",
+        "https://wordpress.org/wp-content/mu-plugins/pub-sync/blocks/global-header-footer/build/style.css?ver=1749697505",
+        "https://wordpress.org/wp-content/mu-plugins/pub-sync/blocks/language-suggest/build/front.js?ver=6f71d5ef610256d46dec",
+        "https://wordpress.org/wp-content/plugins/gutenberg/build-module/block-library/navigation/view.min.js?ver=e87598ae68934bb20ab4-20240308",
+        "https://wordpress.org/wp-content/plugins/gutenberg/build-module/interactivity/index.min.js?ver=ef3cac5f125ae4ad0adb",
+        "https://wordpress.org/files/2024/06/chevron-right-small.png",
+        "https://i0.wp.com/wordpress.org/files/2024/04/brush.png?w=1198&ssl=1",
+        "https://i0.wp.com/wordpress.org/files/2024/10/design-visual-6-7.png?w=720&ssl=1",
+        "https://i0.wp.com/wordpress.org/files/2024/10/build-visual-6-7.png?w=720&ssl=1",
+        "https://i0.wp.com/wordpress.org/files/2024/10/extend-visual-6-7.png?w=720&ssl=1",
+        "https://i0.wp.com/wordpress.org/files/2024/10/whats-new-visual-6-7.png?w=1080&ssl=1",
+        "https://i0.wp.com/wordpress.org/files/2023/12/rolling-stone.png?w=521&ssl=1",
+        "https://wordpress.org/files/2022/08/Time-Magazine.png",
+        "https://wordpress.org/files/2023/10/NASA-1.png",
+        "https://i0.wp.com/wordpress.org/files/2023/10/Microsoft.png?w=302&ssl=1",
+        "https://wordpress.org/files/2023/10/tech-crunch.png",
+        "https://i0.wp.com/wordpress.org/files/2023/10/Harvard.png?w=319&ssl=1",
+        "https://i0.wp.com/wordpress.org/files/2023/10/showcase-top-row-full.png?resize=1536%2C279&ssl=1",
+        "https://i0.wp.com/wordpress.org/files/2023/10/showcase-middle-row.png?resize=1536%2C282&ssl=1",
+        "https://i0.wp.com/wordpress.org/files/2023/10/showcase-bottom-row.png?resize=1536%2C223&ssl=1",
+        "https://i0.wp.com/wordpress.org/files/2024/04/photo-community-1.png?w=1216&ssl=1",
+        "https://s.w.org/style/images/code-is-poetry-for-dark-bg.svg",
+        "https://wordpress.org/wp-content/mu-plugins/pub-sync/blocks/time/build/view.js?ver=385bfe9134bf98c52dda",
+        "https://stats.wp.com/e-202529.js",
+        "https://wordpress.org/wp-content/mu-plugins/pub-sync/blocks/global-header-footer/js/view.js?ver=1751335906",
+        "https://wordpress.org/wp-content/mu-plugins/pub-sync/blocks/global-header-footer/images/search-for-light-bg.svg?ver=96c7098",
+        "https://wordpress.org/wp-content/themes/wporg-parent-2021/images/dots-banner.svg",
+        "https://wordpress.org/wp-content/mu-plugins/pub-sync/global-fonts/Inter/Inter-arrows.woff2",
+        "https://wordpress.org/lang-guess/lang-guess-ajax.php?uri=%252F&locale=en_US"
+    ],
+    "software": [
+        {
+            "name": "WordPress",
+            "version": "6.9-alpha-60451",
+            "source": "generator_tag"
+        },
+        {
+            "name": "Stream WordPress user activity plugin",
+            "version": "4.1.1",
+            "source": "comment"
+        }
+    ],
+    "vulnerabilities": []
+}
