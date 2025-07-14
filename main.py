@@ -120,8 +120,13 @@ async def main():
     parser.add_argument('--output', '-o', help='Output file name for the SBOM (JSON format).')
     args = parser.parse_args()
 
+    # Ensure the URL has a scheme for proper parsing
+    if not re.match(r'^[a-zA-Z]+://', args.url):
+        args.url = "https://" + args.url
+
     if not args.output:
-        args.output = f'{urlparse(args.url).netloc.replace(".", "_")}.json'
+        parsed_url = urlparse(args.url)
+        args.output = f'{parsed_url.netloc.replace(".", "_")}.json'
 
     print(f"Generating SBOM for: {args.url}")
 
