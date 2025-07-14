@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import argparse
 import asyncio
 import aiohttp
@@ -116,7 +117,7 @@ async def crawl(page, session, url, base_domain, depth=1):
 async def main():
     parser = argparse.ArgumentParser(description='Generate a Software Bill of Materials (SBOM) from a URL.')
     parser.add_argument('url', help='The URL to generate the SBOM for.')
-    parser.add_argument('--output', '-o', help='Output file name for the SBOM (JSON format).', default='sbom_output.json')
+    parser.add_argument('--output', '-o', help='Output file name for the SBOM (JSON format).', default=f'{urlparse(args.url).netloc.replace(".", "_")}.json')
     args = parser.parse_args()
 
     print(f"Generating SBOM for: {args.url}")
