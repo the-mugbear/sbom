@@ -2,7 +2,7 @@ import argparse
 import asyncio
 import aiohttp
 import json
-from . import config
+import config
 from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 import re
