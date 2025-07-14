@@ -117,8 +117,11 @@ async def crawl(page, session, url, base_domain, depth=1):
 async def main():
     parser = argparse.ArgumentParser(description='Generate a Software Bill of Materials (SBOM) from a URL.')
     parser.add_argument('url', help='The URL to generate the SBOM for.')
-    parser.add_argument('--output', '-o', help='Output file name for the SBOM (JSON format).', default=f'{urlparse(args.url).netloc.replace(".", "_")}.json')
+    parser.add_argument('--output', '-o', help='Output file name for the SBOM (JSON format).')
     args = parser.parse_args()
+
+    if not args.output:
+        args.output = f'{urlparse(args.url).netloc.replace(".", "_")}.json'
 
     print(f"Generating SBOM for: {args.url}")
 
